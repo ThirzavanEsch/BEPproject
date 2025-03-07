@@ -1,6 +1,6 @@
 version: 1
 project:
-  title: Template
+  title: The impact of climate change on the hydrology of the Wien river and the implications for flooding of the adjacent U4 subway line
   authors:
     - name: TeachBooks
   copyright: Delft University of Technology, CC BY 4.0
@@ -10,7 +10,7 @@ project:
   exports:
     - format: pdf
       template: plain_latex_book # myst templates list --tex
-      output: exports/book.pdf  
+      output: exports/BEP_Thirza.pdf
 
   toc:
     - file: TUSSENRAPPORT\INTRODUCTION.ipynb
