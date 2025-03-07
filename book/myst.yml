@@ -2,7 +2,7 @@ version: 1
 project:
   title: The impact of climate change on the hydrology of the Wien river and the implications for flooding of the adjacent U4 subway line
   authors:
-    - name: TeachBooks
+    - name: Thirza van Esch
   copyright: Delft University of Technology, CC BY 4.0
   bibliography:
     - references.bib
@@ -13,15 +13,12 @@ project:
       output: exports/BEP_Thirza.pdf
 
   toc:
-    - file: intro.md
-    - title: BEP Thirza
-      children:
-        - file: TUSSENRAPPORT\INTRODUCTION.ipynb
-        - file: TUSSENRAPPORT\CHAPTER1.ipynb
-        - file: TUSSENRAPPORT\CHAPTER2.ipynb
-        - file: TUSSENRAPPORT\CHAPTER3.ipynb
-        - file: TUSSENRAPPORT\CHAPTER4.ipynb
-        - file: TUSSENRAPPORT\REFERENCES.ipynb
+    - file: TUSSENRAPPORT\INTRODUCTION.ipynb
+    - file: TUSSENRAPPORT\CHAPTER1.ipynb
+    - file: TUSSENRAPPORT\CHAPTER2.ipynb
+    - file: TUSSENRAPPORT\CHAPTER3.ipynb
+    - file: TUSSENRAPPORT\CHAPTER4.ipynb
+    - file: TUSSENRAPPORT\REFERENCES.ipynb
 site:
   options:
     favicon: figures/favicon.ico
