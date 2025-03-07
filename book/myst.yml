@@ -1,0 +1,27 @@
+version: 1
+project:
+  title: Template
+  authors:
+    - name: TeachBooks
+  copyright: Delft University of Technology, CC BY 4.0
+  bibliography:
+    - references.bib
+  
+  exports:
+    - format: pdf
+      template: plain_latex_book # myst templates list --tex
+      output: exports/book.pdf  
+
+  toc:
+    - file: TUSSENRAPPORT\INTRODUCTION.ipynb
+    - title: BEP Thirza
+      children:
+        - file: TUSSENRAPPORT\CHAPTER1.ipynb
+        - file: TUSSENRAPPORT\CHAPTER2.ipynb
+        - file: TUSSENRAPPORT\CHAPTER3.ipynb
+        - file: TUSSENRAPPORT\CHAPTER4.ipynb
+        - file: TUSSENRAPPORT\REFERENCES.ipynb
+site:
+  options:
+    favicon: figures/favicon.ico
+  template: book-theme
