@@ -13,9 +13,10 @@ project:
       output: exports/BEP_Thirza.pdf
 
   toc:
-    - file: TUSSENRAPPORT\INTRODUCTION.ipynb
+    - file: intro.md
     - title: BEP Thirza
       children:
+        - file: TUSSENRAPPORT\INTRODUCTION.ipynb
         - file: TUSSENRAPPORT\CHAPTER1.ipynb
         - file: TUSSENRAPPORT\CHAPTER2.ipynb
         - file: TUSSENRAPPORT\CHAPTER3.ipynb
